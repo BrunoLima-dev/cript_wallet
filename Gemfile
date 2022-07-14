@@ -7,6 +7,12 @@ ruby '2.4.4'
 gem 'rails', '~> 5.2.0'
 gem 'tty-spinner'
 gem 'rails-i18n', '~> 5.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery'
+  gem 'rails-assets-notifyjs'
+end
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
