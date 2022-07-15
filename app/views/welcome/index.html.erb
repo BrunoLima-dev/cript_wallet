@@ -1,14 +1,7 @@
 <h1>Seja Bem vindo!</h1>
 <p>O idioma usado nessa aplicação é <strong><%= locale %></strong></p>
 <p><strong>Data:</strong> <%= I18n.l(Date.today)%> <p>  
-<p><%= t('hello')%></p>
+<p> <%= t('hello')%> </p>
+<p> You are in an environment of <strong> <%= ambiente_rails %> </strong> </p>
 
 <%= render "menu" %>
-
-<p>    
-    You are in an environment of <strong> <%=ambiente_rails%> </strong>
-</p>
-
-<p>
-    My name is <strong> <%=@meu_nome%> </strong>
-</p>

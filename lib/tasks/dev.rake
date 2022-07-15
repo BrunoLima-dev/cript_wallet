@@ -27,7 +27,7 @@ namespace :dev do
                     url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png"
                 },
                 {
-                    description: "Bitcoin",
+                    description: "Dash",
                     acronym: "DASH",
                     url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
                 },

@@ -1,5 +1,5 @@
 class MiningTypesController < ApplicationController
-  before_action :set_mining_type, only: %i[ show edit update destroy ]
+  before_action :set_mining_type, only: [:show, :edit, :update, :destroy]
 
   # GET /mining_types or /mining_types.json
   def index

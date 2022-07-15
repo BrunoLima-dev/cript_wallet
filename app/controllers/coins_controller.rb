@@ -8,7 +8,7 @@ class CoinsController < ApplicationController
     @coins = Coin.all
   end
 
-  # GET /coins/1 or /coins/1.json
+  # GET /coins/1 or /coins/1.json 
   def show
   end
 
